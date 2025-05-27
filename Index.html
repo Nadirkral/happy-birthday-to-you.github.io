@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="az">
+<!DOCTYPE html>
+<html lang="az">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -100,21 +101,26 @@
 <body>
   <h1>Ad Günün Mübarək, ZƏHRA!</h1>
   <div class="message">
-  AD GÜNÜN MÜNASİBƏTİ İLƏ SƏNİ, ÜRƏKDƏN TƏBRİK EDİRƏM, ZƏHRA!<br>
-  Bu gözəl gün sənə sevinc, xoşbəxtlik və sonsuz uğurlar gətirsin.<br>
-  Allah sənə uzun ömür, möhkəm can sağlığı və daima güclü ruh versin.<br>
-  Gələcək həyatın işıqlı və firavan olsun, arzuların həyata keçsin.<br>
-  Üzündən gülüş heç vaxt əskik olmasın, sevgi və xoşbəxtlik daim səninlə olsun!
+    AD GÜNÜN MÜNASİBƏTİ İLƏ SƏNİ, ÜRƏKDƏN TƏBRİK EDİRƏM, ZƏHRA!<br>
+    Bu gözəl gün sənə sevinc, xoşbəxtlik və sonsuz uğurlar gətirsin.<br>
+    Allah sənə uzun ömür, möhkəm can sağlığı və daima güclü ruh versin.<br>
+    Gələcək həyatın işıqlı və firavan olsun, arzuların həyata keçsin.<br>
+    Üzündən gülüş heç vaxt əskik olmasın, sevgi və xoşbəxtlik daim səninlə olsun!
   </div>
   <div class="cake">
     <div class="candle">
       <div class="flame" id="flame"></div>
     </div>
   </div>
-  <p style="margin-top:10px; color:#d6336c;">Şamı üfürmək üçün mikrofona üfür!</p>  <!-- Happy Birthday Music -->  <audio id="bg-music" autoplay loop>
-    <source src="https://cdn.pixabay.com/audio/2022/10/01/audio_70f87465d4.mp3" type="audio/mp3">
+  <p style="margin-top:10px; color:#d6336c;">Şamı üfürmək üçün mikrofona üfür!</p>
+
+  <!-- Lokal musiqi faylı -->
+  <audio id="bg-music" autoplay loop>
+    <source src="music.mp3" type="audio/mp3">
     Sənin brauzerin musiqi dəstəkləmir.
-  </audio>  <script>
+  </audio>
+
+  <script>
     let audioContext;
     let analyser;
     let microphone;
@@ -156,5 +162,6 @@
     }
 
     startMic();
-  </script></body>
+  </script>
+</body>
 </html>
